@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liking Likes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- container for the webpage -->
+    <div class="container">
+        <!-- Navigation bar container -->
+        <div class="navbar">Network</div>
+        <!-- your feed right below the navigation bar -->
+        <div class="yourfeed">Your Feed</div>
+        <!-- Actual content that is below the navbar and below your feed -->
+        <div class="belownavbar">
+            <!-- the left half of below the navbar -->
+            <div class="lefthalf">
+                <img src="./images/user-circle.png" alt="profileicon" class="img">
+                <a class="avatar" href="">Add an avatar</a>
+                <div class="james">James Doe</div>
+            </div>
+            <!-- the right half of below the navbar -->
+            <div class="righthalf">
+                <!-- card for neils post -->
+                <div class="neil">
+                    <div class="firsthalf">
+                        <div class="name">Neil M.</div>
+                        <div class="p"><span id="niellikes">9</span> like(s)</div>
+                        <button onclick="nieladdLike()">Like</button>
+                    </div>
+                    <div class="secondhalf">I just set up this new discord bot, let me know what you all think. <a href="">link</a></div>
+                </div>
+                <!-- card for nicholes post -->
+                <div class="nichole">
+                    <div class="firsthalf">
+                        <div class="namenichole">Nichole K.</div>
+                        <div class="pnichole"><span id="nicholelikes">12</span> like(s)</div>
+                        <button class="nicholebutt" onclick="nicholeaddLike()">Like</button>
+                    </div>
+                    <div class="secondhalf">Just finished my <a href="">next comic</a>, check it out.</div>
+                </div>
+                <!-- card for jims post -->
+                <div class="jim">
+                    <div class="firsthalf">
+                        <div class="name">Jim R.</div>
+                        <div class="p"><span id="jimlikes">9</span> like(s)</div>
+                        <button onclick="jimaddLike()">Like</button>
+                    </div>
+                    <div class="secondhalf">I can't stop listening to the <a href="">new album</a>. Who else is liking it?</div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,171 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* body for the whole webpage */
+body{
+    width: 0 auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+
+/* container that holds all of the content */
+.container{
+    width: 1000px;
+    height: auto;
+}
+
+/* navigation bar css */
+.navbar{
+    width: auto;
+    height: 80px;
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 50px;
+    font-size: 36pt;
+    font-family: sans-serif;
+}
+
+/* your feed section right below the navbar */
+.yourfeed{
+    width: auto;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32pt;
+    font-family: sans-serif;
+}
+
+/* below the navigation and your feed sections holds the main content of the page */
+.belownavbar{
+    width: auto;
+    height: auto;
+    display: flex;
+    gap: 100px;
+}
+
+/* lefthalf of below the navbar section */
+.lefthalf{
+    border: 5px solid black;
+    width: 300px;
+    height: 420px;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    margin: 65px;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.avatar{
+    color: blue;
+    margin: 50px;
+    font-size: 20pt;
+    font-family: sans-serif;
+}
+
+.james{
+    font-family: sans-serif;
+    font-size: 24pt;
+    margin: 55px;
+}
+
+
+/* right half of below the navigation bar */
+.righthalf{
+    width: 600px;
+    height: 800px;
+}
+
+/* first post/card Neil M section */
+.neil{
+    width: auto;
+    height: 230px;
+    border: 5px solid black;
+}
+
+.firsthalf{
+    width: auto;
+    height: 115px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.p{
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-left: 220px;
+}
+
+.name{
+    font-size: 26pt;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+
+button{
+    width: 80px;
+    height: 40px;
+    font-size: 16pt;
+    border: 3px solid black;
+    background-color: rgb(255,217,102);
+    box-shadow: 5px 3px 2px black;
+    margin-left: 40px;
+}
+
+.secondhalf{
+    margin-left: 30px;
+    margin-right: 70px;
+    font-size: 17pt;
+    font-family: sans-serif;
+}
+
+.nichole{
+    margin-top: 20px;
+    width: auto;
+    height: 230px;
+    border: 5px solid black;
+}
+
+.jim{
+    margin-top: 20px;
+    width: auto;
+    height: 230px;
+    border: 5px solid black;
+}
+
+.namenichole{
+    font-size: 26pt;
+    font-family: sans-serif;
+    margin-left: 30px;
+}
+
+.nicholebutt{
+    margin-left: 0px;
+}
+
+.pnichole{
+    font-size: 22px;
+    font-family: sans-serif;
+    margin-left: 170px;
+    margin-right: 27px;
+}
+
+a{
+    color: blue;
+}
+
+
+
+
